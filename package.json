@@ -17,6 +17,9 @@
     "jest": "^29.7.0",
     "lerna": "^8.1.2",
     "ts-jest": "^29.1.4",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "nock": "latest",
+    "@ckb-lumos/rpc": "v0.23.0",
+    "humps": "latest"
   }
 }
