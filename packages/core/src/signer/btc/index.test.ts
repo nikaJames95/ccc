@@ -96,8 +96,6 @@ describe("nock demo", () => {
       params: [transactionParams],
     };
 
-    const nock = require('nock');
-
     nock(nodeUrl)
       .post("/", (body: { jsonrpc: string; method: string; id: any; params: string | any[]; }) => {
         // 确保基本结构和方法匹配
